@@ -73,7 +73,3 @@ Working on this project reinforced my knowledge of CSS variables and custom styl
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 ---
-
-**Next Steps:**
-
-Remember to **replace the placeholder links** and **update your author details** in the final file! Would you like me to generate a template for a different section, like a more detailed "Useful resources" list?
