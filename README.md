@@ -25,11 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
-![A mockup screenshot of the Simple Omelette Recipe page on desktop](../Recipe-Page/design/desktop-design.jpg)
+![A mockup screenshot of the Simple Omelette Recipe page on desktop](./design/desktop-design.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Jordan1881/Recipe-Page.git)
+- Solution URL: [Github Link](https://github.com/Jordan1881/Recipe-Page.git)
 
 
 ## My process
@@ -68,7 +68,7 @@ Working on this project reinforced my knowledge of CSS variables and custom styl
 
 ## Author
 
--LinkedIn - [Add your name here](www.linkedin.com/in/yarden-biton-771026215)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Jordan1881)
+-LinkedIn - [Yarden Biton](www.linkedin.com/in/yarden-biton-771026215)
+- Frontend Mentor - [@Jordan1881](https://www.frontendmentor.io/profile/Jordan1881)
 
 ---
