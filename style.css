@@ -1,0 +1,223 @@
+:root {
+  /* Define color variables  */
+
+  /* ROSE */
+  --rose-50: #fff7fb;
+  --rose-800: #7a284e;
+
+  /* STONE */
+  --stone-150: #e3ddd7;
+  --stone-600: #5f564d;
+  --stone-900: #312e2c;
+  --stone-100: #f3e5d7;
+
+  /* BROWN */
+  --brown-800: #854632;
+
+  /* Define font families  */
+  --font-family-heading: "Young Serif", serif;
+  --font-family-body: "Outfit", sans-serif;
+
+  /* Define font weights for presets */
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
+
+/* ----------- Young Serif  ----------- */
+@font-face {
+  font-family: "Young Serif";
+  src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ----------- Outfit  ----------- */
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/static/Outfit-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/static/Outfit-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/static/Outfit-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/static/Outfit-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/static/Outfit-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* 💡 נוסף ל-preset-3 */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/static/Outfit-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/static/Outfit-ExtraBold.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ================================================= */
+/* BASE STYLES                     */
+/* ================================================= */
+
+body {
+  background-color: var(--stone-100);
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+}
+
+#image {
+  width: 656px;
+  height: 300px;
+  border-radius: 12px;
+}
+
+.container {
+  width: 736px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 40px;
+  background-color: white;
+  border-radius: 24px;
+}
+
+#title {
+  color: var(--stone-900);
+  font-family: var(--font-family-heading);
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin: 0;
+}
+.preparetion {
+  display: block;
+  width: 656px;
+  height: auto;
+  padding: 24px;
+  gap: 16px;
+  background-color: var(--rose-50);
+  border-radius: 12px;
+}
+.preparetion h3 {
+  color: var(--brown-800);
+  font-family: var(--font-family-body);
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin: 0;
+}
+.preparetion ul  li{
+  margin-bottom: 8px;
+
+  padding: 8px 0 0 16px;
+ 
+}
+.ingredients h2,
+.instructions h2 , .nutrition h2 {
+  color: var(--brown-800);
+  font-family: var(--font-family-heading);
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin: 0;
+}
+.ingredients ul li,
+.instructions ol li {
+  color: var(--stone-600);
+  font-family: var(--font-family-body);
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+.ingredients ul li {
+  margin-bottom: 8px;
+  
+}
+.instructions ol li {
+  margin-bottom: 16px;
+}
+hr {
+  width: 656px;
+  border: 1px solid var(--stone-150);
+  margin: 0;
+  }
+.nutrition p {
+  color: var(--stone-600);
+  font-family: var(--font-family-body);
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  border-bottom: 1px solid var(--stone-150);} 
+
+.nutrition th {
+  border: none;
+  padding: 8px;
+  text-align: left;
+  background-color: transparent; 
+  color: var(--stone-600);
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-semibold);
+  border-bottom:1px solid var(--stone-150); ;
+}
+
+.nutrition td {
+  border: none;
+  border-bottom: 1px solid var(--stone-150);
+  padding: 8px 0; 
+  color: var(--brown-800);
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-bold);
+}
+
+.nutrition tr:last-child td,
+.nutrition tr:last-child th {
+  border-bottom: none !important; }
