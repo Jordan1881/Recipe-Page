@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![A mockup screenshot of the Simple Omelette Recipe page on desktop](./desktop-design.jpg)
+![A mockup screenshot of the Simple Omelette Recipe page on desktop](../Recipe-Page/design/desktop-design.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Jordan1881/Recipe-Page.git)
+
 
 ## My process
 
