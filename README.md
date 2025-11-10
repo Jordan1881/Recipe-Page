@@ -68,8 +68,7 @@ Working on this project reinforced my knowledge of CSS variables and custom styl
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+-LinkedIn - [Add your name here](www.linkedin.com/in/yarden-biton-771026215)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Jordan1881)
 
 ---
